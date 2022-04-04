@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>sas15.png</filename>
+	<path>/home/anurag/Desktop/tensorflowobjectdetection/Tensorflow/workspace/images/images/sas15.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>860</width>
+		<height>811</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sasuke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>392</xmin>
+			<ymin>108</ymin>
+			<xmax>523</xmax>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
+</annotation>

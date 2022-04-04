@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>sak15.png</filename>
+	<path>/home/anurag/Desktop/tensorflowobjectdetection/Tensorflow/workspace/images/images/sak15.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>254</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sakura</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>21</ymin>
+			<xmax>186</xmax>
+			<ymax>164</ymax>
+		</bndbox>
+	</object>
+</annotation>

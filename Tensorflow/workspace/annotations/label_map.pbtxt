@@ -1,0 +1,16 @@
+item { 
+	name:'Naruto'
+	id:1
+}
+item { 
+	name:'Sasuke'
+	id:2
+}
+item { 
+	name:'Sakura'
+	id:3
+}
+item { 
+	name:'Kakashi'
+	id:4
+}

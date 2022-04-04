@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>nar12.png</filename>
+	<path>/home/anurag/Desktop/tensorflowobjectdetection/Tensorflow/workspace/images/images/nar12.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>350</width>
+		<height>296</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Naruto</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>37</ymin>
+			<xmax>214</xmax>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

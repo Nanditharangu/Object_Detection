@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>kak5.png</filename>
+	<path>/home/anurag/Desktop/tensorflowobjectdetection/Tensorflow/workspace/images/images/kak5.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>860</width>
+		<height>765</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kakashi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>356</xmin>
+			<ymin>111</ymin>
+			<xmax>497</xmax>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+</annotation>
