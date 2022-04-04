@@ -1,6 +1,16 @@
 # Object_Detection
 
-This project is focused towards creating an Object detection model by use of Transfer learning, to detect user-defined categories. A pretrained SSD MobileNet V2 FPNLite 320x320 model, provided by [TensorFlow 2 Detection Model Zoo](<https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md>) has been retrained on a dataset comprising 4 characters belonging to anime Naruto. 
+This project is focused towards creating an Object detection model by use of Transfer learning, to detect user-defined categories. A pretrained [SSD MobileNet V2 FPNLite 320x320 model](<https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config>), provided by [TensorFlow 2 Detection Model Zoo](<https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md>) has been retrained on a dataset comprising 4 characters belonging to anime Naruto. 
 And the trained model was successful in detecting all 4 categories with an accuracy > 90% each.
 
 ![result](https://user-images.githubusercontent.com/98893548/161387474-ff1ff949-2ffc-4f63-9360-4d925f7c6057.jpg)
+
+The model was pre-trained on [COCO 2017 dataset](<https://cocodataset.org/#home>) which contains 118K training and 41K test images with 90 object classes, thus achieving an mAP of 22.2.
+
+This model is then retrained on a dataset of 60 training & 4 test samples for 2000 steps. The loss & learning rate graphs are shown below. Here the total loss metric has 3 components, viz. classification loss, localization loss & regularization loss.
+
+![image](https://user-images.githubusercontent.com/98893548/161605598-18e263fe-15dc-41ca-87ba-72d98b75d445.png) ![image](https://user-images.githubusercontent.com/98893548/161605639-f13871aa-eee2-4d4f-8ec5-092027d3700f.png)
+
+The resultant model has precision & recall values of 0.775 & 0.775 (these metrics can be optimised further if trained on larger dataset)
+
+![image](https://user-images.githubusercontent.com/98893548/161605748-cc47273d-9103-4d6f-b9b6-484676d923f7.png) ![image](https://user-images.githubusercontent.com/98893548/161605779-43404774-c556-4c3b-8a61-ab2b2107a190.png) 
