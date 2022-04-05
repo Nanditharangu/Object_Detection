@@ -9,8 +9,8 @@ The model was pre-trained on [COCO 2017 dataset](<https://cocodataset.org/#home>
 
 This model is then retrained on a dataset of 60 training & 4 test samples for 2000 steps. The loss & learning rate graphs are shown below. Here the total loss metric has 3 components, viz. classification loss, localization loss & regularization loss.
 
-![image](https://user-images.githubusercontent.com/98893548/161605598-18e263fe-15dc-41ca-87ba-72d98b75d445.png) ![image](https://user-images.githubusercontent.com/98893548/161605639-f13871aa-eee2-4d4f-8ec5-092027d3700f.png)
+![image](https://user-images.githubusercontent.com/98893548/161674680-71eef8e7-a529-4c9d-ab72-3f566b7380e7.png) ![image](https://user-images.githubusercontent.com/98893548/161674702-01b76784-8556-41c2-bf65-d6252b3b7d0a.png)
 
 The resultant model has precision & recall values of 0.775 & 0.775 (these metrics can be optimised further if trained on larger dataset)
 
-![image](https://user-images.githubusercontent.com/98893548/161605748-cc47273d-9103-4d6f-b9b6-484676d923f7.png) ![image](https://user-images.githubusercontent.com/98893548/161605779-43404774-c556-4c3b-8a61-ab2b2107a190.png) 
+ ![image](https://user-images.githubusercontent.com/98893548/161674768-f92be30c-5f2b-4753-8d8b-50cc1e0326ff.png) ![image](https://user-images.githubusercontent.com/98893548/161674786-3bda596a-f7bd-4136-9428-92b1c3316c10.png)
